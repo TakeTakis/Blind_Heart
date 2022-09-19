@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Nuevo push ?
+=======
+Hl sy la fa jaja, pnche teclad merder ?
+>>>>>>> 85b6b100fa7b7bd0276b75d0e1b7f8d07ccdab19
