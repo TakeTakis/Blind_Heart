@@ -1,0 +1,13 @@
+----------------------------------------------------------
+28/092022 Axel
+Aqui vamos a hacer el proyecto final
+todo lo que hemos hecho antes ha sido para 
+darnos bien una idea de como va a terminar
+
+esta carpeta solo contentra el proyecto final
+solo tiene que haber un .json
+un json tiene las escenas dentro
+y creo que ya, pa ser mas organizados
+Sigamos con la forma en la que escribi
+este mensaje
+----------------------------------------------------------
