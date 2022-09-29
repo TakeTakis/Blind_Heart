@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Welcome",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -31,7 +31,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundImageResourceName": "logo.JPG",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
@@ -185,24 +185,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewSprite-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Firmes.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Firmes.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Firmes2.png",
         "kind": "image",
         "metadata": "",
@@ -230,15 +212,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "OndasVitales-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "OndasVitales-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewSprite-1-3.png",
         "kind": "image",
         "metadata": "",
@@ -248,30 +221,254 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "NewSprite2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "OndasVitales.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "OndasVitales.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ChoqueSpike-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ChoqueSpike-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "NewSprite-1-4.png",
         "kind": "image",
         "metadata": "",
         "name": "NewSprite-1-4.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Firmes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Firmes.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "OndasVitales-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "OndasVitales-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "BLOODY.TTF",
+        "kind": "font",
+        "metadata": "",
+        "name": "BLOODY.TTF",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "logo.JPG",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo.JPG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "UnoDeCinco-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UnoDeCinco-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DosDeCinco-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DosDeCinco-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TresDeCinco-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TresDeCinco-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CuatroDeCinco-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CuatroDeCinco-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CincoDeCinco-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CincoDeCinco-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Vidas",
+      "type": "number",
+      "value": 3
+    },
+    {
+      "folded": true,
+      "name": "LevelSelect",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
-      "b": 50,
+      "b": 49,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Escena_32sin_32t_237tulo",
-      "name": "Escena sin título",
+      "mangledName": "Prologo",
+      "name": "Prologo",
       "r": 56,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "Nivel 1 (test)",
-      "v": 50,
+      "v": 49,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -282,32 +479,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6499999999999957,
+        "zoomFactor": 0.6899999999999955,
         "windowMask": false
       },
-      "objectsGroups": [
+      "objectsGroups": [],
+      "variables": [
         {
-          "name": "Group",
-          "objects": []
-        },
-        {
-          "name": "Paredes",
-          "objects": [
-            {
-              "name": "ParedColisionX"
-            }
-          ]
-        },
-        {
-          "name": "MovimientosJugador",
-          "objects": [
-            {
-              "name": "Player"
-            }
-          ]
+          "folded": true,
+          "name": "CountBloddy",
+          "type": "number",
+          "value": 0
         }
       ],
-      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -342,14 +525,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 50,
+          "height": 96,
           "layer": "",
           "name": "Player",
           "persistentUuid": "6f459202-58c0-49a4-86f8-5d3210bea07d",
-          "width": 50,
-          "x": 475.4387512207031,
-          "y": 369.5423583984375,
-          "zOrder": 4,
+          "width": 96,
+          "x": 461.6424255371094,
+          "y": 312.0813293457031,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -377,8 +560,8 @@
           "name": "SeguimientoX",
           "persistentUuid": "c3dff724-c468-4a35-8940-ee95077282ed",
           "width": 10000,
-          "x": -600,
-          "y": 563,
+          "x": -576,
+          "y": 1056,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -392,8 +575,8 @@
           "name": "SeguimientoY",
           "persistentUuid": "e1c11e9f-c6ba-423c-90a5-8e207b9f2d40",
           "width": 32,
-          "x": 648,
-          "y": -800,
+          "x": 992,
+          "y": -832,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -417,13 +600,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 626,
+          "height": 274,
           "layer": "Lighting",
           "name": "NewLight",
           "persistentUuid": "0633ba04-0378-435f-a9db-865730409aed",
-          "width": 626,
-          "x": 86,
-          "y": 9,
+          "width": 242,
+          "x": -102,
+          "y": -262,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -432,13 +615,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 50,
+          "height": 96,
           "layer": "",
           "name": "Arquero",
           "persistentUuid": "33844e3e-c3ca-4caf-99e3-418b3b87fb4e",
-          "width": 50,
-          "x": 484,
-          "y": 357,
+          "width": 96,
+          "x": 480,
+          "y": 352,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -469,7 +652,7 @@
           "width": 64,
           "x": 727,
           "y": -284,
-          "zOrder": 13,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -493,13 +676,223 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
+          "layer": "HUD",
+          "name": "Score",
+          "persistentUuid": "1d14ff34-9d16-42df-bba8-1d3bad95e290",
+          "width": 0,
+          "x": 0,
+          "y": -2,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "name": "NumScore",
+          "persistentUuid": "63c53cf1-0e0c-42e9-a783-9a22a6c8fdcb",
+          "width": 0,
+          "x": 111,
+          "y": -2,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "name": "TextTime",
+          "persistentUuid": "4d9fa55c-7dcf-4f08-bf05-a4d98fccc778",
+          "width": 0,
+          "x": 381,
+          "y": 0,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
           "layer": "",
           "name": "Pinchos",
-          "persistentUuid": "15252c05-e69d-4314-b05e-12e3464764c2",
-          "width": 0,
-          "x": 182,
-          "y": 417,
+          "persistentUuid": "829cd0e7-93ca-4771-9206-f93e27b6f0f7",
+          "width": 128,
+          "x": 128,
+          "y": 128,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Pinchos",
+          "persistentUuid": "18628536-7cfd-491c-8de0-0ffc7ce7d39b",
+          "width": 128,
+          "x": 128,
+          "y": 128,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Pinchos",
+          "persistentUuid": "b1852334-892e-4b71-93bf-3f4fb0591cdc",
+          "width": 128,
+          "x": 128,
+          "y": 288,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "HUD",
+          "name": "LifeMetter",
+          "persistentUuid": "fc3c1ed5-6d29-43ac-9c8b-d073c9bd77b1",
+          "width": 192,
+          "x": 576,
+          "y": 0,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 248,
+          "layer": "Menu",
+          "name": "Menu",
+          "persistentUuid": "27cc08d1-da09-444e-8f28-085c39e43093",
+          "width": 416,
+          "x": 256,
+          "y": 168,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Menu",
+          "name": "Juegando",
+          "persistentUuid": "f98f0d53-c6cc-434e-83d0-f04c6a2d981d",
+          "width": 0,
+          "x": 288,
+          "y": 320,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Sangrita",
+          "persistentUuid": "625986b2-58ee-4574-8650-5f525396e7e9",
+          "width": 0,
+          "x": 0,
+          "y": 736,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Sangrita",
+          "persistentUuid": "c8f64e3b-40bc-4488-a0c5-9a5231dd686e",
+          "width": 0,
+          "x": -128,
+          "y": 672,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Sangrita",
+          "persistentUuid": "3d3972c7-f699-4931-b799-9823d6e5e6b8",
+          "width": 0,
+          "x": -224,
+          "y": 640,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 44,
+          "layer": "HUD",
+          "name": "SangritaCount",
+          "persistentUuid": "5d4fe142-5ca0-4915-aebc-db951b4c811b",
+          "width": 48,
+          "x": 200,
+          "y": -8,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "HUD",
+          "name": "VarCount",
+          "persistentUuid": "726627ce-ed75-4cdf-9d7e-0637722d6836",
+          "width": 105,
+          "x": 240,
+          "y": 5,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BolsaDeSangre",
+          "persistentUuid": "521b654c-7677-4555-9d4f-12d6d42e235e",
+          "width": 0,
+          "x": 555,
+          "y": 326,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -681,6 +1074,9 @@
             {
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "maxSpeed": 800,
+              "movementAngleOffset": 0,
+              "viewpoint": "TopDown",
               "acceleration": 2000,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -688,10 +1084,7 @@
               "customIsometryAngle": 30,
               "deceleration": 4000,
               "ignoreDefaultControls": false,
-              "maxSpeed": 800,
-              "movementAngleOffset": 0,
-              "rotateObject": false,
-              "viewpoint": "TopDown"
+              "rotateObject": false
             }
           ],
           "animations": [
@@ -727,36 +1120,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 54.01979446411133,
-                            "y": 32.14371871948242
+                            "x": 53.40556335449219,
+                            "y": 24.653989791870117
                           },
                           {
-                            "x": 54.01979446411133,
-                            "y": 46.25731658935547
-                          },
-                          {
-                            "x": 32.284854888916016,
+                            "x": 55.210594177246094,
                             "y": 64
                           },
                           {
-                            "x": 10.2676420211792,
-                            "y": 45.12822723388672
+                            "x": 10.600530624389648,
+                            "y": 64
                           },
                           {
-                            "x": 9.985369682312012,
-                            "y": 32.14371871948242
-                          },
-                          {
-                            "x": 19.10996437072754,
-                            "y": 22.84895896911621
-                          },
-                          {
-                            "x": 32.00258255004883,
-                            "y": 33.272804260253906
-                          },
-                          {
-                            "x": 44.12254333496094,
-                            "y": 22.333234786987305
+                            "x": 9.569084167480469,
+                            "y": 25.685436248779297
                           }
                         ]
                       ]
@@ -785,36 +1162,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 54.01979446411133,
-                            "y": 32.14371871948242
+                            "x": 53.40556335449219,
+                            "y": 24.653989791870117
                           },
                           {
-                            "x": 54.01979446411133,
-                            "y": 46.25731658935547
-                          },
-                          {
-                            "x": 32.284854888916016,
+                            "x": 55.210594177246094,
                             "y": 64
                           },
                           {
-                            "x": 10.2676420211792,
-                            "y": 45.12822723388672
+                            "x": 10.600530624389648,
+                            "y": 64
                           },
                           {
-                            "x": 9.985369682312012,
-                            "y": 32.14371871948242
-                          },
-                          {
-                            "x": 19.10996437072754,
-                            "y": 22.84895896911621
-                          },
-                          {
-                            "x": 32.00258255004883,
-                            "y": 33.272804260253906
-                          },
-                          {
-                            "x": 44.12254333496094,
-                            "y": 22.333234786987305
+                            "x": 9.569084167480469,
+                            "y": 25.685436248779297
                           }
                         ]
                       ]
@@ -833,28 +1194,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "NewSprite",
@@ -882,16 +1222,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 33.13166809082031,
-                            "y": 27.909639358520508
+                            "x": 43.864681243896484,
+                            "y": 56.3709716796875
                           },
                           {
-                            "x": 50.91480255126953,
+                            "x": 32.26090621948242,
                             "y": 64
                           },
                           {
-                            "x": 15.63080883026123,
-                            "y": 64
+                            "x": 20.914995193481445,
+                            "y": 56.3709716796875
+                          },
+                          {
+                            "x": 32.003047943115234,
+                            "y": 48.6351203918457
                           }
                         ]
                       ]
@@ -1029,13 +1373,57 @@
                   "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "OndasVitales-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 36.26255798339844,
                         "y": 28.30318832397461
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31.74518394470215,
+                            "y": 19.238895416259766
+                          },
+                          {
+                            "x": 46.7011604309082,
+                            "y": 34.19486999511719
+                          },
+                          {
+                            "x": 17.304933547973633,
+                            "y": 34.710594177246094
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ChoqueSpike",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ChoqueSpike-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -1062,6 +1450,152 @@
           "behaviors": [],
           "animations": [
             {
+              "name": "Firmes",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Firmes.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16.531349182128906,
+                            "y": 34.96845626831055
+                          },
+                          {
+                            "x": 43.60681915283203,
+                            "y": 34.710594177246094
+                          },
+                          {
+                            "x": 45.153987884521484,
+                            "y": 64
+                          },
+                          {
+                            "x": 16.015625,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Score:",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NumScore",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextTime",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Tiempo",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "LifeMetter",
+          "tags": "",
+          "texture": "NewSprite2-1-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Menu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
               "name": "",
               "useMultipleDirections": false,
               "directions": [
@@ -1071,7 +1605,402 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Firmes.png",
+                      "image": "09072021_ChampionInsightsVexArticle_Banner_04_big_hands.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Juegando",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "CONTINUAR JUEGANDO",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 240,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Sangrita",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SangritaCount",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "VarCount",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "VarCount",
+          "font": "",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "BolsaDeSangre",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "CeroDeCinco",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-1-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "UnoDeCinco",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "UnoDeCinco-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DosDeCinco",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "DosDeCinco-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "TresDeCinco",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TresDeCinco-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "CuatroDeCinco",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CuatroDeCinco-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "CincoDeCinco",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CincoDeCinco-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1099,6 +2028,51 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Vidas",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelSelect",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -1108,6 +2082,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -1121,6 +2101,26 @@
                 "123",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::Width"
+              },
+              "parameters": [
+                "LifeMetter",
+                "-",
+                "64"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Vidas",
+                "-",
+                "1"
               ]
             }
           ]
@@ -1148,7 +2148,7 @@
               "parameters": [
                 "SeguimientoX",
                 "300",
-                "Player.PointY(\"\")+310",
+                "Player.PointY(\"\")+330",
                 "0\n",
                 ""
               ]
@@ -1161,7 +2161,7 @@
                 "SeguimientoY",
                 "Player.PointX(\"\")",
                 "0",
-                "380",
+                "350",
                 ""
               ]
             },
@@ -1238,1095 +2238,1108 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Ondas Vitales",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "90"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "-400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "270"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "0\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "180"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "0\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "-400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "120"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*cos(ToRad(30))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*sin(ToRad(30))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*cos(ToRad(60))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*sin(ToRad(60))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "210"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*cos(ToRad(120))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*sin(ToRad(120))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "240"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*cos(ToRad(150))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*sin(ToRad(150))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "300"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*cos(ToRad(210))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*sin(ToRad(210))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "330"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*cos(ToRad(240))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*sin(ToRad(240))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "330"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*cos(ToRad(240))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*sin(ToRad(240))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*cos(ToRad(300))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*sin(ToRad(300))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RelojLatidos\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ondas",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*cos(ToRad(330))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "Physics2",
+                    "=",
+                    "400*sin(ToRad(330))\n"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipY"
+                  },
+                  "parameters": [
+                    "Ondas",
+                    "no"
+                  ]
+                }
+              ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "90"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "-400"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "270"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "0\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "180"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "0\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "-400"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "120"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*cos(ToRad(30))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*sin(ToRad(30))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "150"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*cos(ToRad(60))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*sin(ToRad(60))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "210"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*cos(ToRad(120))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*sin(ToRad(120))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "240"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*cos(ToRad(150))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*sin(ToRad(150))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "300"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*cos(ToRad(210))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*sin(ToRad(210))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "330"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*cos(ToRad(240))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*sin(ToRad(240))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "330"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*cos(ToRad(240))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*sin(ToRad(240))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "30"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*cos(ToRad(300))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*sin(ToRad(300))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RelojLatidos\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Ondas",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "60"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityX"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*cos(ToRad(330))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Ondas",
-                "Physics2",
-                "=",
-                "400*sin(ToRad(330))\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Ondas",
-                "=",
-                "Player.ZOrder()+1"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlipY"
-              },
-              "parameters": [
-                "Ondas",
-                "no"
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2398,6 +3411,15 @@
               "parameters": [
                 "",
                 "\"RelojLatidos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"TiempoRestante\""
               ]
             }
           ]
@@ -2569,23 +3591,271 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Ondas",
+                "Pinchos",
+                "Pinchos",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Ondas",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "This is a comment",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "p"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Menu\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Juegando",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Menu\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Vidas",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GameOver\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Sangrita",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Sangrita",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CountBloddy",
+                "+",
+                "1"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "NumScore",
+                "=",
+                "GlobalVariableString(Score)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "VarCount",
+                "=",
+                "VariableString(CountBloddy)+\"/5\""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "BolsaDeSangre",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BolsaDeSangre",
+                "+",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -2640,13 +3910,24 @@
           ]
         },
         {
-          "ambientLightColorB": 9232608,
+          "ambientLightColorB": 8155064,
           "ambientLightColorG": 6046000,
-          "ambientLightColorR": 8088808,
+          "ambientLightColorR": 8393656,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "name": "Ondas",
+          "name": "HUD",
           "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 14511056,
+          "ambientLightColorG": 6046000,
+          "ambientLightColorR": 8393768,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Menu",
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -2665,14 +3946,758 @@
           "scaleY": 100
         },
         {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        },
-        {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
+    },
+    {
+      "b": 59,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "GameOver",
+      "name": "GameOver",
+      "r": 48,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 35,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5399999999999996,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "GameOverText",
+          "persistentUuid": "fe516548-1403-439a-a913-ad095c8dba89",
+          "width": 0,
+          "x": 190,
+          "y": 112,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "RestartText",
+          "persistentUuid": "a076231d-96b1-49c6-b7a1-147557455359",
+          "width": 0,
+          "x": 338,
+          "y": 308,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SelectText",
+          "persistentUuid": "bcc92f8d-4cb6-4737-ba27-63eeccb013bd",
+          "width": 0,
+          "x": 288,
+          "y": 394,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "ExitText",
+          "persistentUuid": "3d578ff4-7404-4868-80aa-e2f8df2beeb0",
+          "width": 0,
+          "x": 381,
+          "y": 499,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "GameOverText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "GameOver",
+          "font": "BLOODY.TTF",
+          "characterSize": 100,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "RestartText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Restar",
+          "font": "",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "SelectText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Select Level",
+          "font": "",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ExitText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Exit",
+          "font": "",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "RestartText",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LevelSelect",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Prologo\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "RestartText",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LevelSelect",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level1\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "RestartText",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LevelSelect",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level2\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "RestartText",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LevelSelect",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level3\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SelectText",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"LevelSelect\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 16246416,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level1",
+      "name": "Level1",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsGroups": [
+        {
+          "name": "Group",
+          "objects": []
+        }
+      ],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Prologo"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Vidas",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelSelect",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 16769592,
+          "ambientLightColorG": 16769592,
+          "ambientLightColorR": 1597132097,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level2",
+      "name": "Level2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 16258344,
+          "ambientLightColorG": 16258344,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level3",
+      "name": "Level3",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 16258344,
+          "ambientLightColorG": 16258344,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Welcome",
+      "name": "Welcome",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 1,
+          "ambientLightColorG": 134217728,
+          "ambientLightColorR": 1597132097,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "CharacterSelect",
+      "name": "CharacterSelect",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "LevelSelect",
+      "name": "LevelSelect",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 1,
+          "ambientLightColorG": 134217728,
+          "ambientLightColorR": 1597132097,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
