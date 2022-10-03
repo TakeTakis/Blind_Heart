@@ -426,6 +426,15 @@
         "name": "logosinfondo2-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "colimasinfondo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "colimasinfondo-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -846,16 +855,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "colimasinfondo",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Pruebas Chemas - carp de Takis\\colima sin fondo.png",
+                      "image": "colimasinfondo-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
