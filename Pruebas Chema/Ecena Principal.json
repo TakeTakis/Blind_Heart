@@ -408,6 +408,24 @@
         "name": "Pruebas Chemas - carp de Takis\\NewSprite4-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FondoImagenPrincipal-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FondoImagenPrincipal-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "logosinfondo2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logosinfondo2-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -486,21 +504,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "4c2238da-357c-46d2-9c5d-5acdf47e86f6",
-          "width": 0,
-          "x": 405,
-          "y": 238,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -515,16 +518,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "FondoImagenPrincipal",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Pruebas Chemas - carp de Takis\\FondoImagenPrincipal.png",
+                      "image": "FondoImagenPrincipal-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -556,16 +559,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "logosinfondo2",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Pruebas Chemas - carp de Takis\\logo sinfondo2.png",
+                      "image": "logosinfondo2-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -607,7 +610,7 @@
           ],
           "behaviors": [],
           "string": "Blind    Heart",
-          "font": "Pruebas Chemas - carp de Takis\\BLOODY.TTF",
+          "font": "BLOODY.TTF",
           "characterSize": 60,
           "color": {
             "b": 27,
