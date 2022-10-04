@@ -456,6 +456,12 @@
       "name": "Score",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "TieneSangrita",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -530,8 +536,8 @@
           "name": "Player",
           "persistentUuid": "6f459202-58c0-49a4-86f8-5d3210bea07d",
           "width": 63.999996185302734,
-          "x": -364.2383728027344,
-          "y": -207.94578552246094,
+          "x": -172.23838806152344,
+          "y": 528.05419921875,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -694,7 +700,7 @@
           "layer": "HUD",
           "name": "NumScore",
           "persistentUuid": "63c53cf1-0e0c-42e9-a783-9a22a6c8fdcb",
-          "width": 64,
+          "width": 96,
           "x": 128,
           "y": 0,
           "zOrder": 16,
@@ -785,8 +791,8 @@
           "name": "Sangrita",
           "persistentUuid": "c8f64e3b-40bc-4488-a0c5-9a5231dd686e",
           "width": 0,
-          "x": -64,
-          "y": -224,
+          "x": 64,
+          "y": 384,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -998,6 +1004,51 @@
           "x": 544,
           "y": 64,
           "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Sangrita",
+          "persistentUuid": "75d72dc9-de7a-4f15-8c60-581cf8113b19",
+          "width": 0,
+          "x": -32,
+          "y": 448,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Sangrita",
+          "persistentUuid": "2072c6e5-f513-4675-ba57-bdcc319d453b",
+          "width": 0,
+          "x": 0,
+          "y": 640,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Sangrita",
+          "persistentUuid": "1406d04d-1405-4d49-a51e-31dc7a386cdc",
+          "width": 0,
+          "x": -128,
+          "y": 608,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4866,6 +4917,16 @@
             },
             {
               "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TieneSangrita",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -4898,6 +4959,16 @@
               "parameters": [
                 "CountBloddy",
                 "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TieneSangrita",
+                "=",
                 "1"
               ]
             }
@@ -4956,6 +5027,16 @@
             },
             {
               "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TieneSangrita",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -4970,6 +5051,26 @@
                 "BolsaDeSangre",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TieneSangrita",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "100"
               ]
             }
           ]
