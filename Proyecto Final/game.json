@@ -477,6 +477,13 @@
         "name": "NewSprite5-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "POLYA.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "POLYA.otf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6544,7 +6551,7 @@
           "width": 0,
           "x": 413,
           "y": 279,
-          "zOrder": 10,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6790,7 +6797,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Enter para continuar\n",
+          "string": "Space para continuar\n",
           "font": "POLYA.otf",
           "characterSize": 40,
           "color": {
@@ -6827,7 +6834,7 @@
               "FlashDuration": 0
             }
           ],
-          "string": "Enter para continuar\n",
+          "string": "Space para continuar\n",
           "font": "POLYA.otf",
           "characterSize": 40,
           "color": {
@@ -7104,8 +7111,29 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"LevelSelect\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
