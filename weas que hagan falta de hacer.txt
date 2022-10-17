@@ -1,3 +1,4 @@
+
 sangritas invisibles
 ondas que notifiquen al player sobre el lugar de las sangritas
 rebote de las ondas en sangritas ?
@@ -7,3 +8,5 @@ mensajes informativos
 tipos de sangre:
 A+ , A-, B+ , B- , AB+, AB-, O+ , O- 
 Escena "pasate un nivel" + mesnaje informativo sobre la sangre
+
+Sprite, pasaste el nivel en levelSelecto
