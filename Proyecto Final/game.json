@@ -239,15 +239,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Firmes.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Firmes.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "OndasVitales-1.png",
         "kind": "image",
         "metadata": "",
@@ -581,6 +572,24 @@
         "name": "NewSprite3-1-2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Firmes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Firmes.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite3-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite3-1-3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -641,6 +650,30 @@
       "name": "LevelSelecto",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "MenuPausa",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "Nivel1Passed",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Nivel2Passed",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Nivel3Passed",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -655,16 +688,16 @@
       "title": "Nivel 1 (test)",
       "v": 69,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
+        "gridOffsetX": 6,
+        "gridOffsetY": 9,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.9299999999999999,
+        "snap": false,
+        "zoomFactor": 0.8099999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -925,8 +958,8 @@
           "name": "Menu",
           "persistentUuid": "27cc08d1-da09-444e-8f28-085c39e43093",
           "width": 416,
-          "x": 256,
-          "y": 168,
+          "x": 254,
+          "y": 105,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -940,8 +973,8 @@
           "name": "Juegando",
           "persistentUuid": "f98f0d53-c6cc-434e-83d0-f04c6a2d981d",
           "width": 0,
-          "x": 288,
-          "y": 320,
+          "x": 299,
+          "y": 205,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -1075,8 +1108,8 @@
           "name": "NewParticlesEmitter",
           "persistentUuid": "fd96358a-0b15-4ff7-8e36-b9f5ab3d5b55",
           "width": 0,
-          "x": 288,
-          "y": 512,
+          "x": -369,
+          "y": 420,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -1430,13 +1463,13 @@
         {
           "angle": 135.15455627441406,
           "customSize": true,
-          "height": 4.1844282150268555,
+          "height": 15.828364372253418,
           "layer": "",
           "name": "ParedColisionX",
           "persistentUuid": "33b5f9fc-062b-44f0-b731-ec5e9612ad66",
-          "width": 65.27708435058594,
-          "x": 706.3508911132812,
-          "y": 684.8823852539062,
+          "width": 246.92250061035156,
+          "x": 512.6552734375,
+          "y": 746.7615356445312,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -1874,6 +1907,35 @@
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Firmes",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Firmes.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -2762,7 +2824,7 @@
           "assetStoreId": "",
           "destroyWhenNoParticles": true,
           "emitterAngleA": 0,
-          "emitterAngleB": 90,
+          "emitterAngleB": 360,
           "emitterForceMax": 85,
           "emitterForceMin": 45,
           "flow": 45,
@@ -2794,7 +2856,7 @@
           "rendererParam2": 1,
           "rendererType": "Point",
           "tags": "",
-          "tank": -1,
+          "tank": 5,
           "textureParticleName": "",
           "type": "ParticleSystem::ParticleEmitter",
           "zoneRadius": 3,
@@ -5261,6 +5323,18 @@
                     "Ondas",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NewParticlesEmitter",
+                    "Pinchos.CenterX()",
+                    "Pinchos.CenterY()",
+                    ""
+                  ]
                 }
               ]
             },
@@ -5305,56 +5379,6 @@
                   "parameters": [
                     "Ondas",
                     "ParedColisionY",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "Player",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Right"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "Player",
                     ""
                   ]
                 }
@@ -5641,6 +5665,39 @@
           "actions": [
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "MenuPausa",
+                "*",
+                "-1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "MenuPausa",
+                "=",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "ShowLayer"
               },
               "parameters": [
@@ -5655,6 +5712,47 @@
               "parameters": [
                 "",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "MenuPausa",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Menu\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
@@ -5700,6 +5798,16 @@
               "parameters": [
                 "",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "MenuPausa",
+                "*",
+                "-1"
               ]
             }
           ]
@@ -5750,6 +5858,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "TiposMuerte",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5898,6 +6007,127 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Seleccion de Caracter y sus animaciones",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CharacterSelecto",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CharacterSelecto",
+                    "=",
+                    "-1\n"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -6190,7 +6420,31 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Effect",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 10,
+                "blueY": -4,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 10,
+                "greenY": -4,
+                "minSize": 8,
+                "offset": 100,
+                "redX": 2,
+                "redY": 2,
+                "sampleSize": 512,
+                "slices": 5
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
           "behaviors": [],
           "string": "Causa de Muerte",
           "font": "BLOODY.TTF",
@@ -6457,6 +6711,60 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TypeGameOver",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "DeathCause",
+                "=",
+                "\"Se te acabo el tiempo parce\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TypeGameOver",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "DeathCause",
+                "=",
+                "\"La sangre era incompatible,\nsenos fue uno grande\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
@@ -6520,7 +6828,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1,
+        "zoomFactor": 0.7199999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6971,7 +7279,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Space para continuar\n",
+          "string": "Enter para continuar\n",
           "font": "POLYA.otf",
           "characterSize": 40,
           "color": {
@@ -7008,7 +7316,7 @@
               "FlashDuration": 0
             }
           ],
-          "string": "Space para continuar\n",
+          "string": "Enter para continuar\nFalata eel enter\n",
           "font": "POLYA.otf",
           "characterSize": 40,
           "color": {
@@ -7361,7 +7669,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.651833350944519,
+        "zoomFactor": 0.831833350944519,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7405,8 +7713,8 @@
           "name": "puertaHierro",
           "persistentUuid": "09391760-e307-4b20-9299-570db8ceab9e",
           "width": 129,
-          "x": 688,
-          "y": 688,
+          "x": 675,
+          "y": 650,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -7421,7 +7729,7 @@
           "persistentUuid": "ccafaf19-c4f4-4aa5-8f78-b51f0e322eb9",
           "width": 129,
           "x": 505,
-          "y": 657,
+          "y": 640,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -7540,9 +7848,99 @@
           "name": "NewParticlesEmitter",
           "persistentUuid": "c410758c-37ce-4820-bf41-9414a6eefd87",
           "width": 0,
-          "x": 459,
-          "y": 539,
+          "x": 918,
+          "y": 593,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 43,
+          "layer": "",
+          "name": "Palomita",
+          "persistentUuid": "4fdc90e4-4c3c-436d-a9da-9fcf7894fddd",
+          "width": 43,
+          "x": 393,
+          "y": 732,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 43,
+          "layer": "",
+          "name": "Palomita2",
+          "persistentUuid": "887caa36-9617-4857-8365-ce79d7b60e1e",
+          "width": 43,
+          "x": 554,
+          "y": 766,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 43,
+          "layer": "",
+          "name": "Palomita3",
+          "persistentUuid": "9a99b4b7-e3e5-44bb-b619-ea8f8428c6d1",
+          "width": 43,
+          "x": 714,
+          "y": 743,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewText42",
+          "persistentUuid": "4cd62ea1-353c-4101-9bef-47f7963b8c72",
+          "width": 0,
+          "x": 10,
+          "y": 550,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 62,
+          "layer": "",
+          "name": "NewText5",
+          "persistentUuid": "5c01133d-b288-46dc-8ebc-3e76b4b6f95b",
+          "width": 511,
+          "x": 10,
+          "y": 550,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 599,
+          "layer": "",
+          "name": "NewSprite22",
+          "persistentUuid": "8db1e119-adc9-4396-8242-1e6282888813",
+          "width": 798,
+          "x": 1,
+          "y": 0,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8098,6 +8496,228 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Palomita",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite3-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Palomita2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite3-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Palomita3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite3-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NewText5",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "",
+              "name": "Effect",
+              "doubleParameters": {},
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 1,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            }
+          ],
+          "string": "Space para continuar\n\n",
+          "font": "POLYA.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 255,
+            "r": 243
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NewText42",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Space para continuar\n",
+          "font": "POLYA.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 222,
+            "g": 238,
+            "r": 6
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite22",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CIELO.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -8715,8 +9335,153 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Nivel1Passed",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "Palomita",
+                "344+20",
+                "223+15",
+                "0\n",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Nivel2Passed",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "Palomita2",
+                "530+20",
+                "286+15",
+                "0\n",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Nivel3Passed",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "Palomita3",
+                "700+25",
+                "257+15",
+                "0\n",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Nivel1Passed",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Nivel2Passed",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Nivel3Passed",
+                "=",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -8743,7 +9508,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        }
+      ]
     },
     {
       "b": 209,
@@ -8779,8 +9549,8 @@
           "name": "NewText",
           "persistentUuid": "e62c7801-85f5-4885-a681-6d7f35fcced0",
           "width": 0,
-          "x": 310,
-          "y": 247,
+          "x": 346,
+          "y": 76,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
