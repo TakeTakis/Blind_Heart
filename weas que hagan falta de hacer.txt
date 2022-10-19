@@ -3,10 +3,14 @@ sangritas invisibles
 ondas que notifiquen al player sobre el lugar de las sangritas
 rebote de las ondas en sangritas ?
 agregar la musica correspondiente a cada escena
-mensajes que ayuden o avisen al player
-mensajes informativos
+mensajes de ayuda
+mensajes informativos (game passed)
 tipos de sangre:
 A+ , A-, B+ , B- , AB+, AB-, O+ , O- 
 Escena "pasate un nivel" + mesnaje informativo sobre la sangre
 
 Sprite, pasaste el nivel en levelSelecto
+
+NO HAY NECECIDAD DE HACER SANGRE RANDOM
+todo controlado csm
+boton para tirrar sangre
