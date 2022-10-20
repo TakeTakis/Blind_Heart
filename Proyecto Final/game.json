@@ -354,15 +354,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewSprite2-1-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite2-1-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "UnoDeCinco-1.png",
         "kind": "image",
         "metadata": "",
@@ -618,6 +609,34 @@
         "name": "InfoCompatibilidad.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CeroDeCinco-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CeroDeCinco-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "y2mate.com - Royalty Free Music  I Miss You.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "y2mate.com - Royalty Free Music  I Miss You.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -749,7 +768,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9499999999999997,
+        "zoomFactor": 0.6500000000000002,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -860,8 +879,8 @@
           "name": "NewParticlesEmitter2",
           "persistentUuid": "b498b6c7-d52a-42ff-9c3e-c6178bad0423",
           "width": 0,
-          "x": 472,
-          "y": 364,
+          "x": 544,
+          "y": 358,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1088,21 +1107,6 @@
           "x": 240,
           "y": 5,
           "zOrder": 36,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "BolsaDeSangre",
-          "persistentUuid": "521b654c-7677-4555-9d4f-12d6d42e235e",
-          "width": 0,
-          "x": 555,
-          "y": 326,
-          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1832,26 +1836,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "BolsaDeSangre2",
-          "persistentUuid": "c2a8e010-ba59-4db8-88c4-08575b85d0f8",
-          "width": 0,
-          "x": 397,
-          "y": 256,
-          "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "BolsaDeSangre8",
           "persistentUuid": "4d633255-5667-46fb-8179-bfbc6850789c",
           "width": 0,
-          "x": 233,
-          "y": 303,
+          "x": 401,
+          "y": 527,
           "zOrder": 65,
           "numberProperties": [],
           "stringProperties": [],
@@ -1898,6 +1887,66 @@
           "x": 457,
           "y": 304,
           "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BolsaDeSangre3",
+          "persistentUuid": "d336dc6c-f29f-448e-9b74-d82bfffe51e9",
+          "width": 0,
+          "x": 374,
+          "y": 323,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BolsaDeSangre5",
+          "persistentUuid": "69d3c429-f331-4ba8-a57c-7169dd0ed41d",
+          "width": 0,
+          "x": 234,
+          "y": 411,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BolsaDeSangre6",
+          "persistentUuid": "830265bd-59e2-495f-81db-c827b5696c8e",
+          "width": 0,
+          "x": 410,
+          "y": 425,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TxtSangre_APositivo",
+          "persistentUuid": "911eb26e-c9f2-4bc6-b1a3-897406cd5871",
+          "width": 0,
+          "x": 262,
+          "y": 424,
+          "zOrder": 75,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5650,6 +5699,174 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TxtSangre_APositivo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "+A",
+          "font": "ARCO.ttf",
+          "characterSize": 12,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TxtSangre_ANegativo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "-A",
+          "font": "ARCO.ttf",
+          "characterSize": 12,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TxtSangre_BPositivo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "+B",
+          "font": "ARCO.ttf",
+          "characterSize": 12,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TxtSangre_BNegativo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "-B",
+          "font": "ARCO.ttf",
+          "characterSize": 12,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TxtSangre_ABPositivo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "+AB",
+          "font": "ARCO.ttf",
+          "characterSize": 12,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TxtSangre_ABNegativo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "-AB",
+          "font": "ARCO.ttf",
+          "characterSize": 12,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TxtSangre_OPositivo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "+O",
+          "font": "ARCO.ttf",
+          "characterSize": 12,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TxtSangre_ONegativo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "-O",
+          "font": "ARCO.ttf",
+          "characterSize": 12,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -5658,6 +5875,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5712,7 +5930,7 @@
                   "parameters": [
                     "TiempoTemp",
                     "=",
-                    "300"
+                    "60"
                   ]
                 },
                 {
@@ -5879,42 +6097,6 @@
                     "Player.CenterY()-1",
                     "",
                     ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "NumScore",
-                    "=",
-                    "GlobalVariableString(Score)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "VarCount",
-                    "=",
-                    "VariableString(CountBloddy)+\"/5\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "TextTime",
-                    "=",
-                    "ToString(floor(GlobalVariable(TiempoTemp)-TimerElapsedTime(\"TiempoRestante\")))\n"
                   ]
                 }
               ]
@@ -8348,6 +8530,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Logica de Sangritas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8357,6 +8540,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "TieneSangrita",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9170,6 +9354,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "BolsaDeSangre",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9204,6 +9389,17 @@
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "BolsaDeSangre",
+                        "=",
+                        "5"
+                      ]
                     }
                   ],
                   "actions": [
@@ -9411,6 +9607,17 @@
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "BolsaDeSangre2",
+                        "=",
+                        "5"
+                      ]
                     }
                   ],
                   "actions": [
@@ -9580,6 +9787,17 @@
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "BolsaDeSangre3",
+                        "=",
+                        "5"
+                      ]
                     }
                   ],
                   "actions": [
@@ -9787,6 +10005,17 @@
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "BolsaDeSangre4",
+                        "=",
+                        "5"
+                      ]
                     }
                   ],
                   "actions": [
@@ -9949,6 +10178,17 @@
                         "TieneSangrita",
                         "=",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "BolsaDeSangre5",
+                        "=",
+                        "5"
                       ]
                     },
                     {
@@ -10239,6 +10479,17 @@
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "BolsaDeSangre6",
+                        "=",
+                        "5"
+                      ]
                     }
                   ],
                   "actions": [
@@ -10446,6 +10697,17 @@
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "BolsaDeSangre7",
+                        "=",
+                        "5"
+                      ]
                     }
                   ],
                   "actions": [
@@ -10615,6 +10877,17 @@
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Animation"
+                      },
+                      "parameters": [
+                        "BolsaDeSangre8",
+                        "=",
+                        "5"
+                      ]
                     }
                   ],
                   "actions": [
@@ -10833,6 +11106,247 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
+          "name": "TiposMuerte",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Vidas",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GameOver\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "TypeGameOver",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TiempoTemp",
+                    "<=",
+                    "GlobalVariable(TiempoTemp)-ToNumber(TextTime.String())"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GameOver\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "TypeGameOver",
+                    "=",
+                    "2\n"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TypeGameOver",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GameOver\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "TypeGameOver",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Seleccion de Caracter y sus animaciones",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CharacterSelecto",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CharacterSelecto",
+                    "=",
+                    "-1\n"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10892,40 +11406,58 @@
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "r"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "MenuPausa",
-                    "*",
-                    "-1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Reiniciar",
-                    "=",
-                    "1"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "r"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "p"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Reiniciar",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "MenuPausa",
+                        "*",
+                        "-1"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -11301,246 +11833,6 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
-          "name": "TiposMuerte",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "Vidas",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"GameOver\"",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "TypeGameOver",
-                    "=",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "TiempoTemp",
-                    "<=",
-                    "GlobalVariable(TiempoTemp)-ToNumber(TextTime.String())"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"GameOver\"",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "TypeGameOver",
-                    "=",
-                    "2\n"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "TypeGameOver",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"GameOver\"",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "TypeGameOver",
-                    "=",
-                    "3"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Seleccion de Caracter y sus animaciones",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "CharacterSelecto",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "CharacterSelecto",
-                    "=",
-                    "-1\n"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "Player",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Right"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "Player",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "Condiciones para pasar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11657,6 +11949,42 @@
                     "",
                     "\"GamePassed\"",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "NumScore",
+                    "=",
+                    "GlobalVariableString(Score)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "VarCount",
+                    "=",
+                    "VariableString(CountBloddy)+\"/5\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TextTime",
+                    "=",
+                    "ToString(floor(GlobalVariable(TiempoTemp)-TimerElapsedTime(\"TiempoRestante\")))\n"
                   ]
                 }
               ]
@@ -11795,7 +12123,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Menu",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -12363,6 +12691,31 @@
                 "GameOverText.CenterY()+100",
                 "0\n",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "y2mate.com - Royalty Free Music  I Miss You.mp3",
+                "no",
+                "50",
+                "1"
               ]
             }
           ]
