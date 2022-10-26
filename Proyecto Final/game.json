@@ -647,6 +647,56 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "seleccion_personaje.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "seleccion_personaje.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Prologo}.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Prologo}.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "seleccionar_nivel.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "seleccionar_nivel.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "boton.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "boton.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "botonfinal.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "botonfinal.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -784,7 +834,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.658666664218903,
+        "zoomFactor": 0.5386666642189029,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12104,6 +12154,31 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Prologo}.mp3",
+                "yes",
+                "80",
+                ".95"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -12752,6 +12827,14 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -12766,7 +12849,7 @@
                 "",
                 "y2mate.com - Royalty Free Music  I Miss You.mp3",
                 "no",
-                "50",
+                "100",
                 "1"
               ]
             }
@@ -13587,7 +13670,7 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyReleased"
+                "value": "KeyPressed"
               },
               "parameters": [
                 "",
@@ -13625,10 +13708,10 @@
               },
               "parameters": [
                 "",
-                "Musica\\WhatsApp Audio 2022-10-20 at 7.30.32 AM.mp3",
+                "seleccion_personaje.mp3",
                 "yes",
-                "25",
-                ".85"
+                "30",
+                ".95"
               ]
             }
           ]
@@ -14794,18 +14877,18 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "KeyReleased"
+                "value": "KeyPressed"
               },
               "parameters": [
                 "",
-                "Space"
+                "Escape"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -14878,18 +14961,18 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
                 "",
                 "Space"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -14920,18 +15003,18 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
                 "",
                 "Space"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -14996,6 +15079,18 @@
               "parameters": [
                 "LevelSelecto",
                 "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "botonfinal.mp3",
+                "",
+                "100",
                 "1"
               ]
             }
@@ -15306,7 +15401,6 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -15339,7 +15433,6 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -15372,7 +15465,6 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -15405,7 +15497,6 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -15596,6 +15687,31 @@
                 "Flash",
                 "1",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "seleccionar_nivel.mp3",
+                "yes",
+                "85",
+                ".85"
               ]
             }
           ]
