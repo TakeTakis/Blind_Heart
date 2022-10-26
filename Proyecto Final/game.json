@@ -637,6 +637,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "Musica/WhatsApp Audio 2022-10-20 at 7.30.32 AM.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Musica\\WhatsApp Audio 2022-10-20 at 7.30.32 AM.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -745,19 +755,25 @@
       "name": "MensajeGamePassed",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "ContadorSangritas",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
     {
-      "b": 86,
+      "b": 132,
       "disableInputWhenNotFocused": true,
       "mangledName": "Prologo",
       "name": "Prologo",
-      "r": 88,
+      "r": 146,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "Nivel 1 (test)",
-      "v": 86,
+      "v": 132,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -768,7 +784,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6500000000000002,
+        "zoomFactor": 0.658666664218903,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1442,15 +1458,15 @@
           "initialVariables": []
         },
         {
-          "angle": 135.15455627441406,
+          "angle": 326.3546142578125,
           "customSize": true,
-          "height": 15.828364372253418,
+          "height": 12.442024230957031,
           "layer": "",
           "name": "ParedColisionX",
           "persistentUuid": "33b5f9fc-062b-44f0-b731-ec5e9612ad66",
-          "width": 246.92250061035156,
-          "x": 512.6552734375,
-          "y": 746.7615356445312,
+          "width": 194.0955810546875,
+          "x": 537.951904296875,
+          "y": 745.9353637695312,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -1947,6 +1963,36 @@
           "x": 262,
           "y": 424,
           "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BolsaDeSangre",
+          "persistentUuid": "5e058a1f-17e4-4d63-9355-8f12fe9513dd",
+          "width": 0,
+          "x": 316,
+          "y": 478,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 300.2978515625,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "name": "ParedColisionY",
+          "persistentUuid": "3866acb4-5f66-4e3c-b64e-ab806ccd7e70",
+          "width": 100,
+          "x": 301.3954772949219,
+          "y": 673.6044921875,
+          "zOrder": 77,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5875,7 +5921,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6004,10 +6049,10 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarScene"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "CountBloddy",
+                    "ContadorSangritas",
                     "=",
                     "0"
                   ]
@@ -8530,7 +8575,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Logica de Sangritas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9354,7 +9398,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "BolsaDeSangre",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9444,10 +9487,10 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "CountBloddy",
+                        "ContadorSangritas",
                         "+",
                         "1"
                       ]
@@ -9662,10 +9705,10 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "CountBloddy",
+                        "ContadorSangritas",
                         "+",
                         "1"
                       ]
@@ -9842,10 +9885,10 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "CountBloddy",
+                        "ContadorSangritas",
                         "+",
                         "1"
                       ]
@@ -10060,10 +10103,10 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "CountBloddy",
+                        "ContadorSangritas",
                         "+",
                         "1"
                       ]
@@ -10240,10 +10283,10 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "CountBloddy",
+                        "ContadorSangritas",
                         "+",
                         "1"
                       ]
@@ -10534,10 +10577,10 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "CountBloddy",
+                        "ContadorSangritas",
                         "+",
                         "1"
                       ]
@@ -10752,10 +10795,10 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "CountBloddy",
+                        "ContadorSangritas",
                         "+",
                         "1"
                       ]
@@ -10932,10 +10975,10 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarScene"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "CountBloddy",
+                        "ContadorSangritas",
                         "+",
                         "1"
                       ]
@@ -11832,7 +11875,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Condiciones para pasar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11842,10 +11884,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "VarScene"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "CountBloddy",
+                    "ContadorSangritas",
                     "<",
                     "5"
                   ]
@@ -11869,10 +11911,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "VarScene"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "CountBloddy",
+                    "ContadorSangritas",
                     ">=",
                     "5"
                   ]
@@ -11896,10 +11938,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "VarScene"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "CountBloddy",
+                    "ContadorSangritas",
                     ">=",
                     "5"
                   ]
@@ -11950,6 +11992,16 @@
                     "\"GamePassed\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Nivel1Passed",
+                    "=",
+                    "0"
+                  ]
                 }
               ]
             },
@@ -11974,7 +12026,7 @@
                   "parameters": [
                     "VarCount",
                     "=",
-                    "VariableString(CountBloddy)+\"/5\""
+                    "GlobalVariableString(ContadorSangritas)+\"/5\""
                   ]
                 },
                 {
@@ -12821,7 +12873,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7599999999999998,
+        "zoomFactor": 0.7399999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13535,7 +13587,7 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "KeyReleased"
               },
               "parameters": [
                 "",
@@ -13552,6 +13604,31 @@
                 "",
                 "\"LevelSelect\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Musica\\WhatsApp Audio 2022-10-20 at 7.30.32 AM.mp3",
+                "yes",
+                "25",
+                ".85"
               ]
             }
           ]
@@ -13608,7 +13685,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6718333509445189,
+        "zoomFactor": 0.6918333509445189,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14717,18 +14794,18 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Escape"
-              ]
-            },
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
             }
           ],
           "actions": [
@@ -14749,21 +14826,21 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            },
-            {
-              "type": {
                 "value": "VarGlobal"
               },
               "parameters": [
                 "LevelSelecto",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
               ]
             },
             {
@@ -14791,15 +14868,6 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            },
-            {
-              "type": {
                 "value": "VarGlobal"
               },
               "parameters": [
@@ -14813,6 +14881,15 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
             }
           ],
           "actions": [
@@ -14833,15 +14910,6 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            },
-            {
-              "type": {
                 "value": "VarGlobal"
               },
               "parameters": [
@@ -14855,6 +14923,15 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
             }
           ],
           "actions": [
