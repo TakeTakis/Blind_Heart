@@ -861,7 +861,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3699999999999998,
+        "zoomFactor": 0.9900000000000002,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6960,6 +6960,21 @@
           "x": -343,
           "y": 982,
           "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TxtSangre_APositivo",
+          "persistentUuid": "c44c6fb7-64a6-47a2-be7c-370a823f603b",
+          "width": 0,
+          "x": -490,
+          "y": 968,
+          "zOrder": 92,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17296,7 +17311,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "HUD",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -17307,7 +17322,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Menu",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -17365,7 +17380,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.29,
+        "zoomFactor": 1.1300000000000006,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -19104,21 +19119,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "BolsaDeSangre",
-          "persistentUuid": "58d9d406-35e4-4f04-b6a7-3af355aae449",
-          "width": 0,
-          "x": -960.9319458007812,
-          "y": 939.7510986328125,
-          "zOrder": 71,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 180,
           "customSize": false,
           "height": 0,
@@ -20074,6 +20074,36 @@
           "x": -884.5656127929688,
           "y": 788.4332885742188,
           "zOrder": 171,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BolsaDeSangre6",
+          "persistentUuid": "57161f5e-163c-4d69-8c2c-7b674ef2d952",
+          "width": 0,
+          "x": -957,
+          "y": 938,
+          "zOrder": 172,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TxtSangre_ABNegativo",
+          "persistentUuid": "8b025b13-02b2-4915-8966-056a470915ec",
+          "width": 0,
+          "x": -934,
+          "y": 950,
+          "zOrder": 173,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30412,7 +30442,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "HUD",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -30481,7 +30511,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.21000000000000008,
+        "zoomFactor": 0.42999999999999994,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -32965,6 +32995,21 @@
           "x": 1374,
           "y": -271,
           "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TxtSangre_BPositivo",
+          "persistentUuid": "e91b7771-fd65-40e2-9d8c-89332996ac88",
+          "width": 0,
+          "x": -446,
+          "y": 632,
+          "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
