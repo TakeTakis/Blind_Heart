@@ -742,6 +742,16 @@
         "name": "logosinfondo2-1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "nivel2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "nivel2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -17233,7 +17243,7 @@
                 "",
                 "Prologo}.mp3",
                 "yes",
-                "80",
+                "60",
                 ".95"
               ]
             }
@@ -29373,6 +29383,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Seleccion de Caracter y sus animaciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30327,9 +30338,9 @@
               },
               "parameters": [
                 "",
-                "Prologo}.mp3",
+                "nivel2.mp3",
                 "yes",
-                "80",
+                "60",
                 ".95"
               ]
             }
@@ -43224,7 +43235,7 @@
               },
               "parameters": [
                 "",
-                "Prologo}.mp3",
+                "",
                 "yes",
                 "80",
                 ".95"
@@ -55699,7 +55710,60 @@
           }
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Inicio\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Inicio\"",
+                ">=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"CharacterSelect\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 1,
