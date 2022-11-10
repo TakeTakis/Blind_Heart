@@ -724,6 +724,24 @@
         "name": "cubrebocas sin fondo2.jpeg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FondoImagenPrincipal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FondoImagenPrincipal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "logo sinfondo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo sinfondo2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -54999,15 +55017,15 @@
       ]
     },
     {
-      "b": 59,
+      "b": 36,
       "disableInputWhenNotFocused": true,
       "mangledName": "GameOver",
       "name": "GameOver",
-      "r": 48,
+      "r": 29,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 35,
+      "v": 24,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -55018,7 +55036,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47999999999999954,
+        "zoomFactor": 0.6799999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -55033,7 +55051,7 @@
           "persistentUuid": "fe516548-1403-439a-a913-ad095c8dba89",
           "width": 0,
           "x": 186,
-          "y": 31,
+          "y": 37,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -55047,8 +55065,8 @@
           "name": "RestartText",
           "persistentUuid": "a076231d-96b1-49c6-b7a1-147557455359",
           "width": 0,
-          "x": 312,
-          "y": 314,
+          "x": 276,
+          "y": 336,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -55062,8 +55080,8 @@
           "name": "SelectText",
           "persistentUuid": "bcc92f8d-4cb6-4737-ba27-63eeccb013bd",
           "width": 0,
-          "x": 227,
-          "y": 400,
+          "x": 222,
+          "y": 407,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -55077,8 +55095,8 @@
           "name": "ExitText",
           "persistentUuid": "3d578ff4-7404-4868-80aa-e2f8df2beeb0",
           "width": 0,
-          "x": 348,
-          "y": 501,
+          "x": 342,
+          "y": 485,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -55092,8 +55110,8 @@
           "name": "DeathCause",
           "persistentUuid": "e5a7bc41-cc09-4bd2-b482-47690ed74c27",
           "width": 0,
-          "x": 296,
-          "y": 205,
+          "x": 247,
+          "y": 239,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -55111,7 +55129,20 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 10,
+                "thickness": 10
+              },
+              "stringParameters": {
+                "color": "1"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "string": "GameOver",
           "font": "BLOODY.TTF",
@@ -55119,7 +55150,7 @@
           "color": {
             "b": 0,
             "g": 0,
-            "r": 0
+            "r": 255
           }
         },
         {
@@ -55132,15 +55163,28 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 5
+              },
+              "stringParameters": {
+                "color": "1"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "string": "Restar(R)",
           "font": "ARCO.ttf",
           "characterSize": 50,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -55153,15 +55197,28 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 5
+              },
+              "stringParameters": {
+                "color": "1"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "string": "Select Level",
           "font": "ARCO.ttf",
           "characterSize": 50,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -55174,15 +55231,28 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 5,
+                "thickness": 5
+              },
+              "stringParameters": {
+                "color": "1"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "string": "Exit",
           "font": "ARCO.ttf",
           "characterSize": 50,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -55199,11 +55269,11 @@
           "behaviors": [],
           "string": "Causa de Muerte",
           "font": "BLOODY.TTF",
-          "characterSize": 30,
+          "characterSize": 40,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 60,
+            "g": 60,
+            "r": 61
           }
         }
       ],
@@ -55599,7 +55669,7 @@
               "parameters": [
                 "DeathCause",
                 "=",
-                "\"Moriste por pincharte pelotudo de mierda\""
+                "\"MORISTE POR PINCHARTE :,3\""
               ]
             }
           ]
@@ -55626,7 +55696,7 @@
               "parameters": [
                 "DeathCause",
                 "=",
-                "\"Se te acabo el tiempo parce\""
+                "\"SE TE ACABÓ EL TIEMPO MI PARCE\""
               ]
             }
           ]
@@ -55653,7 +55723,7 @@
               "parameters": [
                 "DeathCause",
                 "=",
-                "\"La sangre era incompatible,\nsenos fue uno grande\""
+                "\"LA SANGRE ES INCOMPATIBLE, SENOS FUE UN GRANDE\""
               ]
             }
           ]
@@ -58893,6 +58963,210 @@
           "ambientLightColorB": 1,
           "ambientLightColorG": 134217728,
           "ambientLightColorR": 1597066561,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Escena_32Principal",
+      "name": "Escena Principal",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.8199999999999998,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 576,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "d10ba027-fa8b-4eb7-afe8-511823898e06",
+          "width": 773,
+          "x": 3,
+          "y": 5,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "059cbb64-735a-4cac-97c8-aea4065b3964",
+          "width": 0,
+          "x": -10,
+          "y": 385,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 193,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "d7a7262e-76cc-4f66-9246-55a2e152f1f5",
+          "width": 645,
+          "x": 205,
+          "y": 284,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "FondoImagenPrincipal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "logo sinfondo2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Blind   Heart",
+          "font": "BLOODY.TTF",
+          "characterSize": 90,
+          "color": {
+            "b": 27,
+            "g": 27,
+            "r": 211
+          }
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 16227120,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
