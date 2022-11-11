@@ -17377,7 +17377,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1300000000000006,
+        "zoomFactor": 0.01,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -36927,6 +36927,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -54957,126 +54958,6 @@
           "height": 0,
           "layer": "",
           "name": "GameOverText",
-          "persistentUuid": "ff64b3c1-d2bc-4dd8-bed8-6e09d082920d",
-          "width": 0,
-          "x": -1125.7349853515625,
-          "y": -100.25,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "RestartText",
-          "persistentUuid": "9f4c8c72-a778-4717-9833-0a85f8c12101",
-          "width": 0,
-          "x": -1032.7349853515625,
-          "y": 195.75,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "SelectText",
-          "persistentUuid": "5ce4f701-162c-43a2-92d8-ed2f27df54af",
-          "width": 0,
-          "x": -1084.7349853515625,
-          "y": 268.75,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "ExitText",
-          "persistentUuid": "66b93838-6848-484c-9c1a-0554da511ade",
-          "width": 0,
-          "x": -963.7350463867188,
-          "y": 354.75,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "GameOverText",
-          "persistentUuid": "1a8afbb2-bb96-4a06-a03a-c8f15f54eb7b",
-          "width": 0,
-          "x": -1125.7349853515625,
-          "y": -100.25,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "RestartText",
-          "persistentUuid": "69fa3bb7-b016-42f5-af80-81391dc19657",
-          "width": 0,
-          "x": -1032.7349853515625,
-          "y": 195.75,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "SelectText",
-          "persistentUuid": "fcd7a11e-24f7-43fc-8b25-b17c24cbaa3d",
-          "width": 0,
-          "x": -1084.7349853515625,
-          "y": 268.75,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "ExitText",
-          "persistentUuid": "e1bfe0fb-f07f-405f-bee1-6805127e30a3",
-          "width": 0,
-          "x": -963.7350463867188,
-          "y": 354.75,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "GameOverText",
           "persistentUuid": "919e9786-973e-44ad-b40b-afacd9860abc",
           "width": 0,
           "x": 193,
@@ -55612,7 +55493,7 @@
               "parameters": [
                 "DeathCause",
                 "=",
-                "\"LA SANGRE ES INCOMPATIBLE, SENOS FUE UN GRANDE\""
+                "\"LA SANGRE ES INCOMPATIBLE, \nSENOS FUE UN GRANDE\""
               ]
             }
           ]
@@ -55639,12 +55520,6 @@
               "parameters": [
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -55658,16 +55533,6 @@
                 "no",
                 "100",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Alo",
-                "+",
-                "GlobalVariableString(LevelSelect)"
               ]
             }
           ]
@@ -58771,14 +58636,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 21,
           "layer": "",
           "name": "TxtModificable",
           "persistentUuid": "3baf6f49-4330-4eb2-b179-06a3fabd1e50",
-          "width": 0,
-          "x": 214,
-          "y": 321,
+          "width": 451,
+          "x": 429,
+          "y": 343,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -58792,8 +58657,8 @@
           "name": "btnContinuar",
           "persistentUuid": "db277140-d630-4f20-88df-8186ce32ce88",
           "width": 0,
-          "x": 342,
-          "y": 470,
+          "x": 302,
+          "y": 468,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -58898,87 +58763,6 @@
           "conditions": [
             {
               "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "MensajeGamePassed",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "TxtModificable",
-                "=",
-                "\"Vienes del nivel 1\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "MensajeGamePassed",
-                "=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "TxtModificable",
-                "=",
-                "\"Vienes del nivel 2\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "MensajeGamePassed",
-                "=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "TxtModificable",
-                "=",
-                "\"Vienes del nivel 3\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -59039,8 +58823,411 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "MensajeGamePassed",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "VarRnd",
+                "=",
+                "RandomInRange(1,2)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "MensajeGamePassed",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "VarRnd",
+                "=",
+                "RandomInRange(3,4)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "MensajeGamePassed",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "VarRnd",
+                "=",
+                "RandomInRange(5,6)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "VarRnd",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TxtModificable",
+                "=",
+                "\"En el mundo se recogen \nalrededor de 117,4 millones \nde unidades de sangre, el 42%\n en los países de altos \ningresos, donde vive el 16% \nde la población mundial.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "VarRnd",
+                "=",
+                "2\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TxtModificable",
+                "=",
+                "\"Los hombres pueden donar\n hasta 4 veces al año, \nmientras que las mujeres 3 \nveces.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "VarRnd",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TxtModificable",
+                "=",
+                "\"La sangre caduca \naproximadamente en 45 días,\n por lo tanto, es necesaria\n la donación constante de las\n personas.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "VarRnd",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TxtModificable",
+                "=",
+                "\"Si donaras 3 veces como \nmujer y 4 veces como hombre \nal año de los 18 a los 65 \naños salvarías más de 500 \nvidas.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "VarRnd",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TxtModificable",
+                "=",
+                "\"Donar sangre no adelgaza ni\nengorda. La donación es de \n400 ml a 450 ml de sangre, \nuna cantidad que no provoca \nningún tipo de cambio en el \ncuerpo humano.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "VarRnd",
+                "=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TxtModificable",
+                "=",
+                "\"Cada 4 minutos, una persona \nrequiere una transfusión \nsanguínea.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "MensajeGamePassed",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "r"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GamePassed\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "TxtModificable",
+                "CameraCenterX()",
+                "CameraCenterY()",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "Yei",
+                "CameraCenterX()",
+                "CameraCenterY()-200",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "btnContinuar",
+                "CameraCenterX()",
+                "CameraCenterY()+220",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::SetTextAlignment"
+              },
+              "parameters": [
+                "TxtModificable",
+                "\"center\""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
