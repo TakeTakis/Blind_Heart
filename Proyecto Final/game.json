@@ -23,7 +23,7 @@
     "author": "",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\axelp\\Desktop",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -426,15 +426,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewSprite2-1-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite2-1-6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "CIELO.jpg",
         "kind": "image",
         "metadata": "",
@@ -759,6 +750,15 @@
         "metadata": "",
         "name": "ARCO for OSX.otf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-6.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -873,6 +873,18 @@
       "name": "ContadorSangritas",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Visibilidad",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "TipoDeSangreMuerte",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -896,7 +908,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.16999999999999998,
+        "zoomFactor": 0.9680000104904181,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10953,7 +10965,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11008,7 +11019,7 @@
                   "parameters": [
                     "TiempoTemp",
                     "=",
-                    "180\n"
+                    "300"
                   ]
                 },
                 {
@@ -13608,7 +13619,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Logica de Sangritas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13618,7 +13628,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "TieneSangrita",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13716,6 +13725,16 @@
                         "=",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -13811,6 +13830,16 @@
                         "TipoSangrita",
                         "=",
                         "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
                       ]
                     }
                   ]
@@ -13908,6 +13937,16 @@
                         "=",
                         "3"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -14003,6 +14042,16 @@
                         "TipoSangrita",
                         "=",
                         "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
                       ]
                     }
                   ]
@@ -14100,6 +14149,16 @@
                         "=",
                         "5"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -14195,6 +14254,16 @@
                         "TipoSangrita",
                         "=",
                         "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
                       ]
                     }
                   ]
@@ -14292,6 +14361,16 @@
                         "=",
                         "7"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -14388,6 +14467,16 @@
                         "=",
                         "8"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -14432,6 +14521,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "BolsaDeSangre",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14613,19 +14703,19 @@
                                         "value": "ModVarGlobal"
                                       },
                                       "parameters": [
-                                        "TipoSangrita",
+                                        "TypeGameOver",
                                         "=",
-                                        "0"
+                                        "3"
                                       ]
                                     },
                                     {
                                       "type": {
-                                        "value": "ModVarGlobal"
+                                        "value": "Scene"
                                       },
                                       "parameters": [
-                                        "TypeGameOver",
-                                        "=",
-                                        "3"
+                                        "",
+                                        "\"GameOver\"",
+                                        "no"
                                       ]
                                     }
                                   ]
@@ -14797,19 +14887,19 @@
                                 "value": "ModVarGlobal"
                               },
                               "parameters": [
-                                "TipoSangrita",
+                                "TypeGameOver",
                                 "=",
-                                "0"
+                                "3"
                               ]
                             },
                             {
                               "type": {
-                                "value": "ModVarGlobal"
+                                "value": "Scene"
                               },
                               "parameters": [
-                                "TypeGameOver",
-                                "=",
-                                "3"
+                                "",
+                                "\"GameOver\"",
+                                "no"
                               ]
                             }
                           ]
@@ -15011,19 +15101,19 @@
                                         "value": "ModVarGlobal"
                                       },
                                       "parameters": [
-                                        "TipoSangrita",
+                                        "TypeGameOver",
                                         "=",
-                                        "0"
+                                        "3"
                                       ]
                                     },
                                     {
                                       "type": {
-                                        "value": "ModVarGlobal"
+                                        "value": "Scene"
                                       },
                                       "parameters": [
-                                        "TypeGameOver",
-                                        "=",
-                                        "3"
+                                        "",
+                                        "\"GameOver\"",
+                                        "no"
                                       ]
                                     }
                                   ]
@@ -15195,19 +15285,19 @@
                                 "value": "ModVarGlobal"
                               },
                               "parameters": [
-                                "TipoSangrita",
+                                "TypeGameOver",
                                 "=",
-                                "0"
+                                "3"
                               ]
                             },
                             {
                               "type": {
-                                "value": "ModVarGlobal"
+                                "value": "Scene"
                               },
                               "parameters": [
-                                "TypeGameOver",
-                                "=",
-                                "3"
+                                "",
+                                "\"GameOver\"",
+                                "no"
                               ]
                             }
                           ]
@@ -15477,19 +15567,19 @@
                                                         "value": "ModVarGlobal"
                                                       },
                                                       "parameters": [
-                                                        "TipoSangrita",
+                                                        "TypeGameOver",
                                                         "=",
-                                                        "0"
+                                                        "3"
                                                       ]
                                                     },
                                                     {
                                                       "type": {
-                                                        "value": "ModVarGlobal"
+                                                        "value": "Scene"
                                                       },
                                                       "parameters": [
-                                                        "TypeGameOver",
-                                                        "=",
-                                                        "3"
+                                                        "",
+                                                        "\"GameOver\"",
+                                                        "no"
                                                       ]
                                                     }
                                                   ]
@@ -15703,19 +15793,19 @@
                                         "value": "ModVarGlobal"
                                       },
                                       "parameters": [
-                                        "TipoSangrita",
+                                        "TypeGameOver",
                                         "=",
-                                        "0"
+                                        "3"
                                       ]
                                     },
                                     {
                                       "type": {
-                                        "value": "ModVarGlobal"
+                                        "value": "Scene"
                                       },
                                       "parameters": [
-                                        "TypeGameOver",
-                                        "=",
-                                        "3"
+                                        "",
+                                        "\"GameOver\"",
+                                        "no"
                                       ]
                                     }
                                   ]
@@ -15887,19 +15977,19 @@
                                 "value": "ModVarGlobal"
                               },
                               "parameters": [
-                                "TipoSangrita",
+                                "TypeGameOver",
                                 "=",
-                                "0"
+                                "3"
                               ]
                             },
                             {
                               "type": {
-                                "value": "ModVarGlobal"
+                                "value": "Scene"
                               },
                               "parameters": [
-                                "TypeGameOver",
-                                "=",
-                                "3"
+                                "",
+                                "\"GameOver\"",
+                                "no"
                               ]
                             }
                           ]
@@ -16055,19 +16145,19 @@
                                 "value": "ModVarGlobal"
                               },
                               "parameters": [
-                                "TipoSangrita",
+                                "TypeGameOver",
                                 "=",
-                                "0"
+                                "3"
                               ]
                             },
                             {
                               "type": {
-                                "value": "ModVarGlobal"
+                                "value": "Scene"
                               },
                               "parameters": [
-                                "TypeGameOver",
-                                "=",
-                                "3"
+                                "",
+                                "\"GameOver\"",
+                                "no"
                               ]
                             }
                           ]
@@ -16183,7 +16273,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "TiposMuerte",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17060,7 +17149,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Condiciones para pasar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17102,7 +17190,7 @@
                   "parameters": [
                     "ContadorSangritas",
                     ">=",
-                    "5"
+                    "1"
                   ]
                 }
               ],
@@ -17129,12 +17217,12 @@
                   "parameters": [
                     "ContadorSangritas",
                     ">=",
-                    "5"
+                    "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "KeyPressed"
+                    "value": "KeyReleased"
                   },
                   "parameters": [
                     "",
@@ -17270,6 +17358,70 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Visibilidad",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"10;10;10\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Visibilidad",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"126;108;108\""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -17302,7 +17454,7 @@
           "followBaseLayerCamera": true,
           "isLightingLayer": true,
           "name": "Lighting",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -17399,7 +17551,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9500000000000006,
+        "zoomFactor": 1.0100000000000005,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24261,7 +24413,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24316,7 +24467,7 @@
                   "parameters": [
                     "TiempoTemp",
                     "=",
-                    "60"
+                    "300"
                   ]
                 },
                 {
@@ -26916,7 +27067,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Logica de Sangritas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26926,7 +27076,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "TieneSangrita",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -27024,6 +27173,16 @@
                         "=",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -27119,6 +27278,16 @@
                         "TipoSangrita",
                         "=",
                         "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
                       ]
                     }
                   ]
@@ -27216,6 +27385,16 @@
                         "=",
                         "3"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -27311,6 +27490,16 @@
                         "TipoSangrita",
                         "=",
                         "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
                       ]
                     }
                   ]
@@ -27408,6 +27597,16 @@
                         "=",
                         "5"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -27503,6 +27702,16 @@
                         "TipoSangrita",
                         "=",
                         "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
                       ]
                     }
                   ]
@@ -27600,6 +27809,16 @@
                         "=",
                         "7"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -27696,6 +27915,16 @@
                         "=",
                         "8"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -27740,6 +27969,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "BolsaDeSangre",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -30368,6 +30598,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Condiciones para pasar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30577,6 +30808,70 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Visibilidad",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"10;10;10\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Visibilidad",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"126;108;108\""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -30637,7 +30932,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "HUD",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -30706,7 +31001,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.42999999999999994,
+        "zoomFactor": 1.3900000000000006,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -38209,6 +38504,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38263,7 +38559,7 @@
                   "parameters": [
                     "TiempoTemp",
                     "=",
-                    "60"
+                    "300"
                   ]
                 },
                 {
@@ -38442,6 +38738,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Ondas Vitales",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40862,7 +41159,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Logica de Sangritas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40872,7 +41168,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "TieneSangrita",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -40970,6 +41265,16 @@
                         "=",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -41065,6 +41370,16 @@
                         "TipoSangrita",
                         "=",
                         "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
                       ]
                     }
                   ]
@@ -41162,6 +41477,16 @@
                         "=",
                         "3"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -41257,6 +41582,16 @@
                         "TipoSangrita",
                         "=",
                         "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
                       ]
                     }
                   ]
@@ -41354,6 +41689,16 @@
                         "=",
                         "5"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -41449,6 +41794,16 @@
                         "TipoSangrita",
                         "=",
                         "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
                       ]
                     }
                   ]
@@ -41546,6 +41901,16 @@
                         "=",
                         "7"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -41642,6 +42007,16 @@
                         "=",
                         "8"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "TipoDeSangreMuerte",
+                        "=",
+                        "GlobalVariable(TipoSangrita)"
+                      ]
                     }
                   ]
                 },
@@ -41686,6 +42061,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "BolsaDeSangre",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -43828,6 +44204,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44313,6 +44690,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Condiciones para pasar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44522,6 +44900,70 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Visibilidad",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"10;10;10\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Visibilidad",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"126;108;108\""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -44582,7 +45024,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "HUD",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -56229,7 +56671,20 @@
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "CadenaSangre",
+          "type": "string",
+          "value": "\"HolisCadenaSangre\""
+        },
+        {
+          "folded": true,
+          "name": "CadenaNivel",
+          "type": "string",
+          "value": "\"HolisCadenaNivel\""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -56846,15 +57301,6 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "TextObject::SetTextAlignment"
-              },
-              "parameters": [
-                "DeathCause",
-                "\"center\""
-              ]
             }
           ]
         },
@@ -56893,15 +57339,6 @@
                 "CameraCenterY()-60",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::SetTextAlignment"
-              },
-              "parameters": [
-                "DeathCause",
-                "\"center\""
               ]
             }
           ]
@@ -56942,14 +57379,345 @@
                 "",
                 ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "TextObject::SetTextAlignment"
+                "value": "DepartScene"
               },
               "parameters": [
-                "DeathCause",
-                "\"center\""
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TipoDeSangreMuerte",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaSangre",
+                    "=",
+                    "\"+EEE\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TipoDeSangreMuerte",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaSangre",
+                    "=",
+                    "\"+A\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TipoDeSangreMuerte",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaSangre",
+                    "=",
+                    "\"-A\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TipoDeSangreMuerte",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaSangre",
+                    "=",
+                    "\"+B\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TipoDeSangreMuerte",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaSangre",
+                    "=",
+                    "\"-B\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TipoDeSangreMuerte",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaSangre",
+                    "=",
+                    "\"+AB\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TipoDeSangreMuerte",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaSangre",
+                    "=",
+                    "\"-AB\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TipoDeSangreMuerte",
+                    "=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaSangre",
+                    "=",
+                    "\"+O\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TipoDeSangreMuerte",
+                    "=",
+                    "8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaSangre",
+                    "=",
+                    "\"-O\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelSelect",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaNivel",
+                    "=",
+                    "\"+A\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelSelect",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaNivel",
+                    "=",
+                    "\"-AB\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelSelect",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "CadenaNivel",
+                    "=",
+                    "\"+B\""
+                  ]
+                }
               ]
             }
           ]
@@ -56976,7 +57744,7 @@
               "parameters": [
                 "DeathCause",
                 "=",
-                "\"LA SANGRE ES INCOMPATIBLE, \nSENOS FUE UN GRANDE\""
+                "\"LA SANGRE \"+ VariableString(CadenaSangre) +\" ES INCOMPATIBLE CON \"+VariableString(CadenaNivel)+\" , \nSENOS FUE UN GRANDE\" "
               ]
             },
             {
@@ -56989,15 +57757,6 @@
                 "CameraCenterY()-60",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::SetTextAlignment"
-              },
-              "parameters": [
-                "DeathCause",
-                "\"center\""
               ]
             }
           ]
@@ -57087,13 +57846,17 @@
                 "100",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::SetTextAlignment"
+              },
+              "parameters": [
+                "DeathCause",
+                "\"center\""
+              ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -57142,7 +57905,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3199999999999994,
+        "zoomFactor": 0.5599999999999995,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -57171,8 +57934,8 @@
           "name": "NewSprite2",
           "persistentUuid": "5c9dc448-fbd6-4073-a056-b23bd1e18244",
           "width": 0,
-          "x": -17,
-          "y": 402,
+          "x": -15,
+          "y": 440,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -60919,7 +61682,6 @@
     {
       "author": "@4ian",
       "category": "Visual effect",
-      "description": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nAfter adding this to an object, you have to **trigger the effect** by using the **Flash action**.",
       "extensionNamespace": "",
       "fullName": "Flash (blink)",
       "helpPath": "",
@@ -60928,6 +61690,7 @@
       "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg",
       "shortDescription": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nTrigger the effect by using the Flash action.",
       "version": "1.0.0",
+      "description": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nAfter adding this to an object, you have to **trigger the effect** by using the **Flash action**.",
       "origin": {
         "identifier": "Flash",
         "name": "gdevelop-extension-store"
@@ -60953,12 +61716,9 @@
           "objectType": "",
           "eventsFunctions": [
             {
-              "description": "",
               "fullName": "",
               "functionType": "Action",
-              "group": "",
               "name": "doStepPreEvents",
-              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -61094,22 +61854,13 @@
               ],
               "parameters": [
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
-                  "optional": false,
                   "supplementaryInformation": "Flash::Flash",
                   "type": "behavior"
                 }
@@ -61120,9 +61871,7 @@
               "description": "Make the specified object(s) blink for the given duration.",
               "fullName": "Flash (blink)",
               "functionType": "Action",
-              "group": "",
               "name": "Flash",
-              "private": false,
               "sentence": "Make _PARAM0_ blink for _PARAM2_ seconds",
               "events": [
                 {
@@ -61175,33 +61924,19 @@
               ],
               "parameters": [
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
-                  "optional": false,
                   "supplementaryInformation": "Flash::Flash",
                   "type": "behavior"
                 },
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Duration of the blinking, in seconds",
-                  "longDescription": "",
                   "name": "FlashDuration",
-                  "optional": false,
-                  "supplementaryInformation": "",
                   "type": "expression"
                 }
               ],
@@ -61211,9 +61946,7 @@
               "description": "Check if the specified objects are flashing.",
               "fullName": "Is object flashing",
               "functionType": "Condition",
-              "group": "",
               "name": "IsFlashing",
-              "private": false,
               "sentence": "_PARAM0_ is flashing",
               "events": [
                 {
@@ -61257,22 +61990,13 @@
               ],
               "parameters": [
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
-                  "optional": false,
                   "supplementaryInformation": "Flash::Flash",
                   "type": "behavior"
                 }
@@ -61280,12 +62004,9 @@
               "objectGroups": []
             },
             {
-              "description": "",
               "fullName": "",
               "functionType": "Action",
-              "group": "",
               "name": "onOwnerRemovedFromScene",
-              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -61307,22 +62028,13 @@
               ],
               "parameters": [
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
-                  "optional": false,
                   "supplementaryInformation": "Flash::Flash",
                   "type": "behavior"
                 }
@@ -61330,12 +62042,9 @@
               "objectGroups": []
             },
             {
-              "description": "",
               "fullName": "",
               "functionType": "Action",
-              "group": "",
               "name": "onDeActivate",
-              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -61357,22 +62066,13 @@
               ],
               "parameters": [
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
-                  "optional": false,
                   "supplementaryInformation": "Flash::Flash",
                   "type": "behavior"
                 }
@@ -61383,9 +62083,7 @@
               "description": "Stop the flashing of the specified object.",
               "fullName": "Stop flashing",
               "functionType": "Action",
-              "group": "",
               "name": "Stop",
-              "private": false,
               "sentence": "Stop flashing _PARAM0_",
               "events": [
                 {
@@ -61426,22 +62124,13 @@
               ],
               "parameters": [
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Object",
-                  "longDescription": "",
                   "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
-                  "codeOnly": false,
-                  "defaultValue": "",
                   "description": "Behavior",
-                  "longDescription": "",
                   "name": "Behavior",
-                  "optional": false,
                   "supplementaryInformation": "Flash::Flash",
                   "type": "behavior"
                 }
@@ -61480,7 +62169,8 @@
               "hidden": true,
               "name": "FlashDuration"
             }
-          ]
+          ],
+          "sharedPropertyDescriptors": []
         }
       ],
       "eventsBasedObjects": []
