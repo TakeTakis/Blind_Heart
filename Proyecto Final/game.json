@@ -857,6 +857,110 @@
         "name": "NewSprite-2-1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Miku Dance en pantalla verde miku bailando sin copyright (1).mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Miku Dance en pantalla verde miku bailando sin copyright (1).mp4",
+        "userAdded": true
+      },
+      {
+        "file": "Miku Dance en pantalla verde miku bailando sin copyright.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Miku Dance en pantalla verde miku bailando sin copyright.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-3-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-4-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-5-0.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -976,7 +1080,7 @@
       "folded": true,
       "name": "Visibilidad",
       "type": "number",
-      "value": 1
+      "value": 0
     },
     {
       "folded": true,
@@ -1006,7 +1110,13 @@
       "folded": true,
       "name": "PasarNivelAyudante",
       "type": "number",
-      "value": 1
+      "value": 5
+    },
+    {
+      "folded": true,
+      "name": "VelocidadOndas",
+      "type": "number",
+      "value": 300
     }
   ],
   "layouts": [
@@ -1030,7 +1140,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5366666797637942,
+        "zoomFactor": 0.18866670083999662,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11546,7 +11656,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ondas Vitales",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11647,7 +11756,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400"
+                    "GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -11714,7 +11823,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "-400"
+                    "-GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -11792,7 +11901,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400"
+                    "GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -11879,7 +11988,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "-400"
+                    "-GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -11965,7 +12074,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(15))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(15))\n"
                   ]
                 },
                 {
@@ -11976,7 +12085,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(15))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(15))\n"
                   ]
                 },
                 {
@@ -12052,7 +12161,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(30))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(30))\n"
                   ]
                 },
                 {
@@ -12063,7 +12172,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(30))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(30))\n"
                   ]
                 },
                 {
@@ -12139,7 +12248,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(45))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(45))\n"
                   ]
                 },
                 {
@@ -12150,7 +12259,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(45))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(45))\n"
                   ]
                 },
                 {
@@ -12226,7 +12335,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(60))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(60))\n"
                   ]
                 },
                 {
@@ -12237,7 +12346,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(60))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(60))\n"
                   ]
                 },
                 {
@@ -12313,7 +12422,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(75))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(75))\n"
                   ]
                 },
                 {
@@ -12324,7 +12433,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(75))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(75))\n"
                   ]
                 },
                 {
@@ -12400,7 +12509,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(105))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(105))\n"
                   ]
                 },
                 {
@@ -12411,7 +12520,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(105))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(105))\n"
                   ]
                 },
                 {
@@ -12487,7 +12596,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(120))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(120))\n"
                   ]
                 },
                 {
@@ -12498,7 +12607,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(120))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(120))\n"
                   ]
                 },
                 {
@@ -12574,7 +12683,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(135))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(135))\n"
                   ]
                 },
                 {
@@ -12585,7 +12694,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(135))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(135))\n"
                   ]
                 },
                 {
@@ -12661,7 +12770,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(150))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(150))\n"
                   ]
                 },
                 {
@@ -12672,7 +12781,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(150))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(150))\n"
                   ]
                 },
                 {
@@ -12748,7 +12857,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(165))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(165))\n"
                   ]
                 },
                 {
@@ -12759,7 +12868,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(165))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(165))\n"
                   ]
                 },
                 {
@@ -12835,7 +12944,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(195))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(195))\n"
                   ]
                 },
                 {
@@ -12846,7 +12955,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(195))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(195))\n"
                   ]
                 },
                 {
@@ -12922,7 +13031,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(210))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(210))\n"
                   ]
                 },
                 {
@@ -12933,7 +13042,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(210))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(210))\n"
                   ]
                 },
                 {
@@ -13009,7 +13118,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(225))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(225))\n"
                   ]
                 },
                 {
@@ -13020,7 +13129,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(225))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(225))\n"
                   ]
                 },
                 {
@@ -13096,7 +13205,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(240))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(240))\n"
                   ]
                 },
                 {
@@ -13107,7 +13216,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(240))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(240))\n"
                   ]
                 },
                 {
@@ -13183,7 +13292,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(255))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(255))\n"
                   ]
                 },
                 {
@@ -13194,7 +13303,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(255))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(255))\n"
                   ]
                 },
                 {
@@ -13270,7 +13379,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(285\n))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(285\n))\n"
                   ]
                 },
                 {
@@ -13281,7 +13390,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(285))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(285))\n"
                   ]
                 },
                 {
@@ -13357,7 +13466,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(300))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(300))\n"
                   ]
                 },
                 {
@@ -13368,7 +13477,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(300))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(300))\n"
                   ]
                 },
                 {
@@ -13444,7 +13553,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(315))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(315))\n"
                   ]
                 },
                 {
@@ -13455,7 +13564,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(315))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(315))\n"
                   ]
                 },
                 {
@@ -13531,7 +13640,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(330))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(330))\n"
                   ]
                 },
                 {
@@ -13542,7 +13651,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(330))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(330))\n"
                   ]
                 },
                 {
@@ -13618,7 +13727,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(345))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(345))\n"
                   ]
                 },
                 {
@@ -13629,7 +13738,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(345))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(345))\n"
                   ]
                 },
                 {
@@ -25087,7 +25196,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ondas Vitales",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25188,7 +25296,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400"
+                    "GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -25255,7 +25363,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "-400"
+                    "-GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -25333,7 +25441,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400"
+                    "GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -25420,7 +25528,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "-400"
+                    "-GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -25506,7 +25614,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(15))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(15))\n"
                   ]
                 },
                 {
@@ -25517,7 +25625,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(15))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(15))\n"
                   ]
                 },
                 {
@@ -25593,7 +25701,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(30))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(30))\n"
                   ]
                 },
                 {
@@ -25604,7 +25712,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(30))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(30))\n"
                   ]
                 },
                 {
@@ -25680,7 +25788,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(45))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(45))\n"
                   ]
                 },
                 {
@@ -25691,7 +25799,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(45))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(45))\n"
                   ]
                 },
                 {
@@ -25767,7 +25875,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(60))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(60))\n"
                   ]
                 },
                 {
@@ -25778,7 +25886,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(60))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(60))\n"
                   ]
                 },
                 {
@@ -25854,7 +25962,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(75))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(75))\n"
                   ]
                 },
                 {
@@ -25865,7 +25973,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(75))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(75))\n"
                   ]
                 },
                 {
@@ -25941,7 +26049,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(105))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(105))\n"
                   ]
                 },
                 {
@@ -25952,7 +26060,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(105))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(105))\n"
                   ]
                 },
                 {
@@ -26028,7 +26136,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(120))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(120))\n"
                   ]
                 },
                 {
@@ -26039,7 +26147,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(120))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(120))\n"
                   ]
                 },
                 {
@@ -26115,7 +26223,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(135))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(135))\n"
                   ]
                 },
                 {
@@ -26126,7 +26234,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(135))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(135))\n"
                   ]
                 },
                 {
@@ -26202,7 +26310,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(150))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(150))\n"
                   ]
                 },
                 {
@@ -26213,7 +26321,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(150))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(150))\n"
                   ]
                 },
                 {
@@ -26289,7 +26397,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(165))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(165))\n"
                   ]
                 },
                 {
@@ -26300,7 +26408,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(165))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(165))\n"
                   ]
                 },
                 {
@@ -26376,7 +26484,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(195))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(195))\n"
                   ]
                 },
                 {
@@ -26387,7 +26495,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(195))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(195))\n"
                   ]
                 },
                 {
@@ -26463,7 +26571,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(210))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(210))\n"
                   ]
                 },
                 {
@@ -26474,7 +26582,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(210))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(210))\n"
                   ]
                 },
                 {
@@ -26550,7 +26658,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(225))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(225))\n"
                   ]
                 },
                 {
@@ -26561,7 +26669,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(225))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(225))\n"
                   ]
                 },
                 {
@@ -26637,7 +26745,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(240))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(240))\n"
                   ]
                 },
                 {
@@ -26648,7 +26756,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(240))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(240))\n"
                   ]
                 },
                 {
@@ -26724,7 +26832,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(255))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(255))\n"
                   ]
                 },
                 {
@@ -26735,7 +26843,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(255))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(255))\n"
                   ]
                 },
                 {
@@ -26811,7 +26919,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(285\n))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(285\n))\n"
                   ]
                 },
                 {
@@ -26822,7 +26930,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(285))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(285))\n"
                   ]
                 },
                 {
@@ -26898,7 +27006,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(300))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(300))\n"
                   ]
                 },
                 {
@@ -26909,7 +27017,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(300))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(300))\n"
                   ]
                 },
                 {
@@ -26985,7 +27093,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(315))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(315))\n"
                   ]
                 },
                 {
@@ -26996,7 +27104,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(315))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(315))\n"
                   ]
                 },
                 {
@@ -27072,7 +27180,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(330))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(330))\n"
                   ]
                 },
                 {
@@ -27083,7 +27191,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(330))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(330))\n"
                   ]
                 },
                 {
@@ -27159,7 +27267,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(345))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(345))\n"
                   ]
                 },
                 {
@@ -27170,7 +27278,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(345))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(345))\n"
                   ]
                 },
                 {
@@ -39239,7 +39347,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ondas Vitales",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -39340,7 +39447,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400"
+                    "GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -39407,7 +39514,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "-400"
+                    "-GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -39485,7 +39592,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400"
+                    "GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -39572,7 +39679,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "-400"
+                    "-GlobalVariable(VelocidadOndas)"
                   ]
                 },
                 {
@@ -39658,7 +39765,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(15))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(15))\n"
                   ]
                 },
                 {
@@ -39669,7 +39776,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(15))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(15))\n"
                   ]
                 },
                 {
@@ -39745,7 +39852,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(30))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(30))\n"
                   ]
                 },
                 {
@@ -39756,7 +39863,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(30))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(30))\n"
                   ]
                 },
                 {
@@ -39832,7 +39939,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(45))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(45))\n"
                   ]
                 },
                 {
@@ -39843,7 +39950,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(45))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(45))\n"
                   ]
                 },
                 {
@@ -39919,7 +40026,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(60))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(60))\n"
                   ]
                 },
                 {
@@ -39930,7 +40037,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(60))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(60))\n"
                   ]
                 },
                 {
@@ -40006,7 +40113,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(75))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(75))\n"
                   ]
                 },
                 {
@@ -40017,7 +40124,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(75))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(75))\n"
                   ]
                 },
                 {
@@ -40093,7 +40200,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(105))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(105))\n"
                   ]
                 },
                 {
@@ -40104,7 +40211,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(105))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(105))\n"
                   ]
                 },
                 {
@@ -40180,7 +40287,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(120))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(120))\n"
                   ]
                 },
                 {
@@ -40191,7 +40298,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(120))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(120))\n"
                   ]
                 },
                 {
@@ -40267,7 +40374,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(135))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(135))\n"
                   ]
                 },
                 {
@@ -40278,7 +40385,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(135))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(135))\n"
                   ]
                 },
                 {
@@ -40354,7 +40461,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(150))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(150))\n"
                   ]
                 },
                 {
@@ -40365,7 +40472,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(150))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(150))\n"
                   ]
                 },
                 {
@@ -40441,7 +40548,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(165))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(165))\n"
                   ]
                 },
                 {
@@ -40452,7 +40559,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(165))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(165))\n"
                   ]
                 },
                 {
@@ -40528,7 +40635,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(195))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(195))\n"
                   ]
                 },
                 {
@@ -40539,7 +40646,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(195))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(195))\n"
                   ]
                 },
                 {
@@ -40615,7 +40722,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(210))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(210))\n"
                   ]
                 },
                 {
@@ -40626,7 +40733,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(210))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(210))\n"
                   ]
                 },
                 {
@@ -40702,7 +40809,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(225))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(225))\n"
                   ]
                 },
                 {
@@ -40713,7 +40820,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(225))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(225))\n"
                   ]
                 },
                 {
@@ -40789,7 +40896,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(240))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(240))\n"
                   ]
                 },
                 {
@@ -40800,7 +40907,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(240))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(240))\n"
                   ]
                 },
                 {
@@ -40876,7 +40983,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(255))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(255))\n"
                   ]
                 },
                 {
@@ -40887,7 +40994,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(255))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(255))\n"
                   ]
                 },
                 {
@@ -40963,7 +41070,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(285\n))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(285\n))\n"
                   ]
                 },
                 {
@@ -40974,7 +41081,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(285))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(285))\n"
                   ]
                 },
                 {
@@ -41050,7 +41157,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(300))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(300))\n"
                   ]
                 },
                 {
@@ -41061,7 +41168,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(300))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(300))\n"
                   ]
                 },
                 {
@@ -41137,7 +41244,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(315))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(315))\n"
                   ]
                 },
                 {
@@ -41148,7 +41255,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(315))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(315))\n"
                   ]
                 },
                 {
@@ -41224,7 +41331,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(330))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(330))\n"
                   ]
                 },
                 {
@@ -41235,7 +41342,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(330))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(330))\n"
                   ]
                 },
                 {
@@ -41311,7 +41418,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*cos(ToRad(345))\n"
+                    "GlobalVariable(VelocidadOndas)*cos(ToRad(345))\n"
                   ]
                 },
                 {
@@ -41322,7 +41429,7 @@
                     "Ondas",
                     "Physics2",
                     "=",
-                    "400*sin(ToRad(345))\n"
+                    "GlobalVariable(VelocidadOndas)*sin(ToRad(345))\n"
                   ]
                 },
                 {
@@ -57255,9 +57362,24 @@
           "name": "NewSprite",
           "persistentUuid": "4f4e2ce2-56fb-4b5a-a985-b8c117986469",
           "width": 250,
-          "x": 81,
-          "y": 252,
+          "x": 0,
+          "y": 298,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 250,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "fc25d09a-8a8c-4ce9-95dd-a42ec07aa98b",
+          "width": 250,
+          "x": 580,
+          "y": 298,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -57448,7 +57570,14 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "invertido",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -57462,7 +57591,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite-1-5.png",
+                      "image": "NewSprite-1-7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -57479,7 +57608,174 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite-2-1.png",
+                      "image": "NewSprite-2-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-3-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-4-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-5-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "invertido",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-2-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-3-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-4-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-5-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -58413,6 +58709,15 @@
               "parameters": [
                 "DeathCause",
                 "\"center\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "NewSprite2",
+                "yes"
               ]
             }
           ]
@@ -59533,7 +59838,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4718333509445187,
+        "zoomFactor": 0.42850002336502063,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -60737,6 +61042,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "botonfinal.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -60777,6 +61094,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "botonfinal.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -60821,6 +61150,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "botonfinal.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -60836,8 +61177,7 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "KeyReleased"
+                "value": "KeyPressed"
               },
               "parameters": [
                 "",
@@ -61457,18 +61797,6 @@
                 "85",
                 ".85"
               ]
-            },
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "botonfinal.mp3",
-                "",
-                "100",
-                "1"
-              ]
             }
           ]
         },
@@ -61662,7 +61990,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5799999999999996,
+        "zoomFactor": 0.5599999999999996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -61676,8 +62004,8 @@
           "name": "Yei",
           "persistentUuid": "e62c7801-85f5-4885-a681-6d7f35fcced0",
           "width": 0,
-          "x": 44,
-          "y": 16,
+          "x": 128,
+          "y": -200,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -61691,8 +62019,8 @@
           "name": "TxtModificable",
           "persistentUuid": "3baf6f49-4330-4eb2-b179-06a3fabd1e50",
           "width": 849,
-          "x": 1,
-          "y": 74,
+          "x": 76,
+          "y": -94,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -61706,8 +62034,8 @@
           "name": "btnContinuar",
           "persistentUuid": "db277140-d630-4f20-88df-8186ce32ce88",
           "width": 0,
-          "x": 31,
-          "y": 101,
+          "x": -321,
+          "y": -81,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -61721,8 +62049,8 @@
           "name": "TxtPruebaScore",
           "persistentUuid": "b2191d21-49db-4219-8e1b-3554a5d76ce4",
           "width": 0,
-          "x": 371,
-          "y": 426,
+          "x": 848,
+          "y": 346,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -61736,8 +62064,8 @@
           "name": "TxtMaximoScore",
           "persistentUuid": "ce84c164-f9f8-4aa9-b810-7591f7d3b328",
           "width": 0,
-          "x": 162,
-          "y": 440,
+          "x": -254,
+          "y": 358,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -61751,8 +62079,8 @@
           "name": "TxtNivel",
           "persistentUuid": "bae975f4-123c-47c4-bf44-c103fde1c8fa",
           "width": 0,
-          "x": 231,
-          "y": 490,
+          "x": -164,
+          "y": 468,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -61766,9 +62094,24 @@
           "name": "TxtCualNivel",
           "persistentUuid": "6a88fdeb-1ad7-4b8b-8760-9ae09304646b",
           "width": 0,
-          "x": 384,
-          "y": 488,
+          "x": 854,
+          "y": 465,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 600,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "efd7204c-d062-4749-aff8-e3ad9ea9b3fe",
+          "width": 800,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -61790,18 +62133,36 @@
               "effectType": "Outline",
               "name": "Effect",
               "doubleParameters": {
-                "padding": 5,
-                "thickness": 5
+                "padding": 3,
+                "thickness": 3
               },
               "stringParameters": {
-                "color": "1"
+                "color": "0;0;0"
               },
               "booleanParameters": {}
+            },
+            {
+              "effectType": "DropShadow",
+              "name": "Effect2",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 2,
+                "padding": 2,
+                "quality": 5,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
             }
           ],
           "behaviors": [],
           "string": "DATOS CURIOSOS",
-          "font": "ARCO.ttf",
+          "font": "cali\\SuperMario256.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -61858,6 +62219,18 @@
               "booleanParameters": {
                 "shadowOnly": false
               }
+            },
+            {
+              "effectType": "Outline",
+              "name": "Effect2",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
             }
           ],
           "behaviors": [],
@@ -61882,9 +62255,9 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "esta es una prueba",
-          "font": "",
-          "characterSize": 30,
+          "string": "10000",
+          "font": "cali\\Bubblegum.ttf",
+          "characterSize": 25,
           "color": {
             "b": 0,
             "g": 0,
@@ -61901,11 +62274,24 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 1,
+                "thickness": 1
+              },
+              "stringParameters": {
+                "color": "255;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "string": "Record Score:",
-          "font": "",
-          "characterSize": 20,
+          "font": "cali\\SuperMario256.ttf",
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -61922,11 +62308,24 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 1,
+                "thickness": 1
+              },
+              "stringParameters": {
+                "color": "255;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "string": "Nivel:",
-          "font": "",
-          "characterSize": 20,
+          "font": "cali\\SuperMario256.ttf",
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -61946,13 +62345,54 @@
           "effects": [],
           "behaviors": [],
           "string": "NumeroNIvel",
-          "font": "",
-          "characterSize": 20,
+          "font": "cali\\Bubblegum.ttf",
+          "characterSize": 25,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Diseño sin título.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -62629,6 +63069,70 @@
                 "=",
                 "GlobalVariableString(MensajeGamePassed)"
               ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "NewSprite",
+                "=",
+                "100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "TxtMaximoScore",
+                "CameraCenterX()-100",
+                "CameraCenterY()+150",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "TxtNivel",
+                "CameraCenterX()-100",
+                "CameraCenterY()+180",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "TxtPruebaScore",
+                "CameraCenterX()+100",
+                "CameraCenterY()+150",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutourPos"
+              },
+              "parameters": [
+                "TxtCualNivel",
+                "CameraCenterX()+100",
+                "CameraCenterY()+180",
+                "",
+                ""
+              ]
             }
           ]
         }
@@ -62679,7 +63183,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6599999999999997,
+        "zoomFactor": 0.7600000082969662,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -62693,8 +63197,8 @@
           "name": "Integrantes",
           "persistentUuid": "ea38412a-eb96-4558-a153-269130792743",
           "width": 0,
-          "x": 278,
-          "y": 440,
+          "x": 206,
+          "y": 444,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -62906,6 +63410,36 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "name": "NewVideo2",
+          "persistentUuid": "2bd427e7-33b9-40c0-9f4f-80b651e626ee",
+          "width": 180,
+          "x": 620,
+          "y": 0,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "name": "NewVideo2",
+          "persistentUuid": "55270bb4-e556-477d-9f7b-8ef3b11f9bd9",
+          "width": 180,
+          "x": 0,
+          "y": 0,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -63440,6 +63974,21 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewVideo2",
+          "tags": "",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": true,
+            "volume": 100,
+            "videoResource": "Miku Dance en pantalla verde miku bailando sin copyright.mp4"
+          }
         }
       ],
       "events": [
@@ -63649,6 +64198,33 @@
                 "NewSprite6",
                 "=",
                 "100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Hatsune_Miku_levan_Polkka_(ievan_Polka).mp3",
+                "",
+                "60",
+                "1"
               ]
             }
           ]
